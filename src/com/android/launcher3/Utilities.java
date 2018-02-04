@@ -747,4 +747,9 @@ public final class Utilities {
                 matrixValues[Matrix.MTRANS_X], matrixValues[Matrix.MTRANS_Y]
         ));
     }
+
+    public static boolean isWorkspaceEditAllowed(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return !prefs.getBoolean(InvariantDeviceProfile.KEY_WORKSPACE_LOCK, false);
+    }
 }
