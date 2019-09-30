@@ -22,6 +22,11 @@ min_launcher3_sdk_version = "26"
 // Common source files used to build launcher (java and kotlin)
 // All sources are split so they can be reused in many other libraries/apps in other folders
 filegroup {
+    name: "launcher-src_base",
+    srcs: [ "src_base/**/*.java", "src_base/**/*.kt" ],
+}
+
+filegroup {
     name: "launcher-src",
     srcs: [ "src/**/*.java", "src/**/*.kt" ],
 }
@@ -319,6 +324,7 @@ android_app {
     static_libs: ["Launcher3CommonDepsLib"],
 
     srcs: [
+        ":launcher-src_base",
         ":launcher-src",
         ":launcher-go-src",
         ":launcher-src_ui_overrides",
