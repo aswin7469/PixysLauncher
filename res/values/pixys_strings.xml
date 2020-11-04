@@ -34,4 +34,8 @@
     <string name="workspace_gradient_summary">Enable a subtle gradient from the status bar</string>
     <string name="hotseat_gradient_title">Show gradient on bottom</string>
     <string name="hotseat_gradient_summary">Enable a subtle gradient from the launcher dock</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Suggestions</string>
+    <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
 </resources>
