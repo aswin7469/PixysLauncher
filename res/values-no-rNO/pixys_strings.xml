@@ -23,10 +23,6 @@
     <string name="msg_minus_one_on_left">Når du drar til venstre fra hovedstartskjermen</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Når du drar til høyre fra hovedstartskjermen</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Preferanser</string>
-    <string name="show_quickspace_title">Kort fortalt</string>
-    <string name="show_quickspace_summary">Vis på toppen av hjemmeskjermen</string>
     <string name="state_loading">Bruker\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
     <string name="workspace_gradient_title">Vis gradering på toppen</string>

@@ -23,10 +23,6 @@
     <string name="msg_minus_one_on_left">Ketika Anda mengusap ke kiri dari Layar Utama</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Ketika Anda mengusap ke kanan dari Layar Utama</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Preferensi</string>
-    <string name="show_quickspace_title">At A Glance</string>
-    <string name="show_quickspace_summary">Tampilkan di bagian atas layar beranda Anda</string>
     <string name="state_loading">Menerapkan\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
     <string name="workspace_gradient_title">Tampilkan gradasi di atas</string>

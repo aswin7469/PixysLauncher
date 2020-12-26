@@ -23,10 +23,6 @@
     <string name="msg_minus_one_on_left">Ao deslizar para a esquerda na tela inicial</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Quando você desliza para a direita na tela inicial principal</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Preferências</string>
-    <string name="show_quickspace_title">Resumo</string>
-    <string name="show_quickspace_summary">Mostrar no topo da sua tela inicial</string>
     <string name="state_loading">Aplicando\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
     <string name="workspace_gradient_title">Mostrar gradiente no topo</string>

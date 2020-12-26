@@ -20,17 +20,13 @@
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
     <string name="title_show_google_app">Hiển thị ứng dụng Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_left">Khi bạn trượt sang trái từ màn hình chính</string>
+    <string name="msg_minus_one_on_left">Khi bạn vuốt sang trái tại Màn hình chính</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_right">Khi bạn trượt sang phải từ màn hình chính</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Tùy chọn Thiết lập</string>
-    <string name="show_quickspace_title">Nhìn thoáng qua</string>
-    <string name="show_quickspace_summary">Hiển thị ở đầu màn hình chính</string>
+    <string name="msg_minus_one_on_right">Khi bạn vuốt sang phải tại Màn hình chính</string>
     <string name="state_loading">Đang áp dụng\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
-    <string name="workspace_gradient_title">Hiển thị mờ trên đầu trang</string>
-    <string name="workspace_gradient_summary">Kích hoạt subtle gradient cho thanh trạng thái</string>
-    <string name="hotseat_gradient_title">Hiển thị gradient bên dưới</string>
-    <string name="hotseat_gradient_summary">Kích hoạt subtle gradient cho thanh trạng thái</string>
+    <string name="workspace_gradient_title">Hiển thị bóng mờ ở cạnh trên</string>
+    <string name="workspace_gradient_summary">Kích hoạt nền màu mờ nhạt cho thanh trạng thái</string>
+    <string name="hotseat_gradient_title">Hiển thị bóng mờ ở cạnh dưới</string>
+    <string name="hotseat_gradient_summary">Kích hoạt nền màu mờ nhạt ở sau kho ứng dụng</string>
 </resources>

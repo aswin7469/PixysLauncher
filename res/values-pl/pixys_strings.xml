@@ -23,10 +23,6 @@
     <string name="msg_minus_one_on_left">Gdy przesuniesz w lewo od ekranu głównego</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Gdy przesuniesz w prawo od ekranu głównego</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Ustawienia</string>
-    <string name="show_quickspace_title">Przy pochyleniu</string>
-    <string name="show_quickspace_summary">Pokaż u góry ekranu głównego</string>
     <string name="state_loading">Zatwierdzam\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
     <string name="workspace_gradient_title">Pokaż gradient na górze</string>

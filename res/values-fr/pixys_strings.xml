@@ -18,8 +18,15 @@
 -->
 <resources>
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Afficher l\'application Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Lorsque vous balayer vers la gauche depuis l\'écran d\'accueil principal</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
-    <!-- SmartSpace -->
+    <string name="msg_minus_one_on_right">Lorsque vous balayer vers la droite depuis l\'écran d\'accueil principal</string>
+    <string name="state_loading">Mise en place en cours\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Afficher le dégradé en haut</string>
+    <string name="workspace_gradient_summary">Activer un dégradé subtil depuis la barre d\'état</string>
+    <string name="hotseat_gradient_title">Afficher le dégradé en bas</string>
+    <string name="hotseat_gradient_summary">Activer un dégradé subtil depuis la barre d\'état du lanceur</string>
 </resources>

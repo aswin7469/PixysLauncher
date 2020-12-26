@@ -23,10 +23,6 @@
     <string name="msg_minus_one_on_left">При свайпе влево на домашнем экране</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">При свайпе вправо от главного домашнего экрана</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Предпочтения</string>
-    <string name="show_quickspace_title">Самое главное</string>
-    <string name="show_quickspace_summary">Показать в верхней части домашнего экрана</string>
     <string name="state_loading">Применение\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
     <string name="workspace_gradient_title">Показывать градиент сверху</string>

@@ -23,10 +23,6 @@
     <string name="msg_minus_one_on_left">Při gestu tažení vlevo z hlavní domovské obrazovky</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Při gestu tažení vpravo z hlavní domovské obrazovky</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Předvolby</string>
-    <string name="show_quickspace_title">Přehled událostí</string>
-    <string name="show_quickspace_summary">Zobrazit v horní části Domovské obrazovky</string>
     <string name="state_loading">Aktivuje se\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
     <string name="workspace_gradient_title">Zobrazit přechod barev nahoře</string>

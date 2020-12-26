@@ -23,10 +23,6 @@
     <string name="msg_minus_one_on_left">Ana sayfadan sola kaydırdığınızda</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Ana sayfadan sağa kaydırdığınızda</string>
-    <!-- SmartSpace -->
-    <string name="smartspace_preferences">Seçenekler</string>
-    <string name="show_quickspace_title">Bir Bakışta</string>
-    <string name="show_quickspace_summary">Ana sayfanın üst kısmında göster</string>
     <string name="state_loading">Uygulanıyor\u2026</string>
     <!-- Gradients on Workspace/Hotseat -->
     <string name="workspace_gradient_title">Gradyanı üstte göster</string>
