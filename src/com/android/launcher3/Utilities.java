@@ -133,6 +133,7 @@ public final class Utilities {
     public static final String KEY_ALL_APPS_BLUR = "pref_all_apps_scrim_blur";
     public static final String KEY_ALLOW_OVERVIEW_BLUR = "pref_allow_overview_blur";
     public static final String KEY_OVERVIEW_BLUR = "pref_overview_scrim_blur";
+    public static final String ICON_SIZE = "pref_custom_icon_size";
 
     /**
      * Set on a motion event dispatched from the nav bar. See {@link MotionEvent#setEdgeFlags(int)}.
@@ -718,60 +719,9 @@ public final class Utilities {
         }
     }
 
-    public static float getIconSizeModifier(Context context) {
-        String saved = getPrefs(context).getString(ICON_SIZE, "100");
-        float offset;
-        switch (saved) {
-            case "050":
-                offset = 0.50F;
-                break;
-            case "055":
-                offset = 0.55F;
-                break;
-            case "060":
-                offset = 0.60F;
-                break;
-            case "065":
-                offset = 0.65F;
-                break;
-            case "070":
-                offset = 0.70F;
-                break;
-            case "075":
-                offset = 0.75F;
-                break;
-            case "080":
-                offset = 0.80F;
-                break;
-            case "085":
-                offset = 0.85F;
-                break;
-            case "090":
-                offset = 0.90F;
-                break;
-            case "095":
-                offset = 0.95F;
-                break;
-            case "100":
-                offset = 1.00F;
-                break;
-            case "105":
-                offset = 1.05F;
-                break;
-            case "110":
-                offset = 1.10F;
-                break;
-            case "115":
-                offset = 1.15F;
-                break;
-            case "120":
-                offset = 1.20F;
-                break;
-            default:
-                offset = 1.00F;
-                break;
-        }
-        return offset;
+    public static int getIconSizeModifier(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getInt(ICON_SIZE, 100);
     }
 
     public static boolean showQSB(Context context) {

@@ -39,6 +39,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
+import com.android.launcher3.settings.preferences.CustomSeekBarPreference;
 import com.android.launcher3.settings.preference.IconPackPrefSetter;
 import com.android.launcher3.settings.preference.ReloadingListPreference;
 import com.android.launcher3.util.AppReloader;
@@ -292,6 +293,14 @@ public class SettingsActivity extends Activity
                             LauncherAppState.getInstanceNoCreate().setNeedsRestart();
                             return true;
                         }
+                    });
+
+                case Utilities.ICON_SIZE:
+                    CustomSeekBarPreference iconSizes =
+                            (CustomSeekBarPreference) findPreference(Utilities.ICON_SIZE);
+                    iconSizes.setOnPreferenceChangeListener((pref, val) -> {
+                        LauncherAppState.getInstanceNoCreate().setNeedsRestart();
+                        return true;
                     });
 
                 case KEY_ICON_PACK:
