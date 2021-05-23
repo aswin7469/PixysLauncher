@@ -44,6 +44,8 @@
     <string name="settings_edit_allow_summary_off">アイコンやウィジェットの追加、削除、移動を許可しない</string>
     <string name="settings_edit_widgets_error">ウィジェットをホーム画面に追加できません</string>
     <!-- Change scrim alpha in all apps -->
+    <string name="all_apps_background_opacity_title">全てのアプリの背景の透明度</string>
+    <string name="all_apps_background_opacity_summary">背景を透明または完全に不透明にする</string>
     <!-- AppInfo -->
     <!-- Used for preference height loading. -->
     <!-- Preference default value -->
@@ -51,12 +53,24 @@
     <string name="icon_size_title">アイコンのサイズ</string>
     <!-- Blur radius -->
     <string name="enable_blur_all_apps_title">アプリドロワーでぼかしを有効にする</string>
+    <string name="enable_blur_overview_title">アプリの一覧でぼかしを有効化</string>
+    <string name="enable_blur_summary">ぼかした背景にする</string>
+    <string name="all_apps_blur_radius_title">全てのアプリのぼかし範囲</string>
+    <string name="all_apps_blur_radius_summary">背景を透明または完全に不透明にする</string>
+    <string name="overview_blur_radius_title">一覧のぼかし範囲</string>
+    <string name="overview_blur_radius_summary">背景を透明または完全に不透明にする</string>
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">提案</string>
     <string name="suggestion_pref_screen_desc">全てのアプリとホーム画面の候補</string>
+    <string name="drawer_category">全てのアプリドロワー</string>
+    <string name="misc_category">その他</string>
+    <string name="actions_category">アクション</string>
     <!-- Trust apps -->
+    <string name="trust_apps_manager_name">非表示のアプリ</string>
+    <string name="trust_apps_auth_manager">非表示のアプリを管理するにはロックを解除してください</string>
     <string name="trust_apps_loading">読み込み中\u2026</string>
     <string name="trust_apps_no_lock_error">アプリのアクセスを制限するためにロック画面の保護をセットアップして下さい</string>
     <string name="trust_apps_help">ヘルプ</string>
+    <string name="trust_app_summary">ドロワーからアプリを非表示にする</string>
     <string name="trust_apps_info_hidden">非表示アプリとそのウィジェットはドロワーから非表示になります</string>
 </resources>

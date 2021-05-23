@@ -27,7 +27,9 @@
     <string name="state_loading">Zatwierdzam\u2026</string>
     <!-- Hide labels -->
     <!-- Gestures -->
+    <string name="gestures_category">Gesty</string>
     <!-- Edit workspace -->
+    <string name="settings_edit_allow_title">Zezwól na edycję</string>
     <!-- Change scrim alpha in all apps -->
     <!-- AppInfo -->
     <!-- Used for preference height loading. -->
@@ -35,5 +37,9 @@
     <!-- Icon size -->
     <!-- Blur radius -->
     <!-- Suggestions -->
+    <string name="misc_category">różne</string>
+    <string name="actions_category">Działania</string>
     <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Ukryte aplikacje</string>
+    <string name="trust_apps_help">Pomoc</string>
 </resources>
