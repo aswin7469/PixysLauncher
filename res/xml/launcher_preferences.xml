@@ -22,7 +22,7 @@
         android:key="homescreen_category"
         android:title="@string/home_screen">
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:defaultValue="true"
         android:key="pref_workspace_edit"
         android:persistent="true"
@@ -43,14 +43,14 @@
         </intent>
     </com.android.launcher3.settings.NotificationDotsPreference>
 
-   <SwitchPreference
+   <com.android.launcher3.widget.SwitchPreference
         android:key="pref_show_searchbar"
         android:title="@string/show_searchbar_title"
         android:summary="@string/show_searchbar_summary"
         android:defaultValue="true"
         android:persistent="true"/>
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:key="pref_desktop_show_labels"
         android:title="@string/desktop_show_labels"
         android:defaultValue="true"
@@ -62,13 +62,13 @@
         android:key="actions_category"
         android:title="@string/actions_category">
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:key="pref_allowRotation_user"
         android:title="@string/allow_rotation_title"
         android:defaultValue="true"
         android:persistent="true" />
 
-   <SwitchPreference
+   <com.android.launcher3.widget.SwitchPreference
         android:key="pref_add_icon_to_home"
         android:title="@string/auto_add_shortcuts_label"
         android:summary="@string/auto_add_shortcuts_description"
@@ -99,13 +99,13 @@
         settings:units="%"
         android:defaultValue="100" />
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:key="pref_drawer_show_labels"
         android:title="@string/drawer_show_labels"
         android:defaultValue="true"
         android:persistent="true" />
 
-   <SwitchPreference
+   <com.android.launcher3.widget.SwitchPreference
         android:key="pref_allow_all_apps_blur"
         android:title="@string/enable_blur_all_apps_title"
         android:summary="@string/enable_blur_summary"
@@ -143,13 +143,13 @@
         settings:units="%"
         android:defaultValue="100" />
 
-   <SwitchPreference
+   <com.android.launcher3.widget.SwitchPreference
         android:defaultValue="true"
         android:key="pref_enable_minus_one"
         android:summary="@string/pref_show_google_now_summary"
         android:title="@string/title_show_google_app"/>
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:key="pref_allow_overview_blur"
         android:title="@string/enable_blur_overview_title"
         android:summary="@string/enable_blur_summary"
@@ -187,21 +187,21 @@
         android:key="gestures_category"
         android:title="@string/gestures_category">
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:key="pref_notification_gesture"
         android:title="@string/pref_notifications_gesture_title"
         android:summary="@string/pref_notifications_gesture_summary"
         android:defaultValue="true"
         android:persistent="true"/>
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:key="pref_dt_gesture"
         android:title="@string/pref_dt_gesture_title"
         android:summary="@string/pref_dt_gesture_summary"
         android:defaultValue="true"
         android:persistent="true"/>
 
-    <SwitchPreference
+    <com.android.launcher3.widget.SwitchPreference
         android:key="pref_allowSwipeDownClearAll"
         android:title="@string/allow_swipe_down_clearall_title"
         android:summary="@string/allow_swipe_down_clearall_desc"
