@@ -51,8 +51,10 @@
     <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
 
     <!-- Settings Categories -->
+ 
     <string name="category_icon">Icons</string>
     <string name="category_misc">Misc</string>
+    <string name="category_actions">Actions</string>
 
     <!-- Recents -->
     <string name="action_lens">Lens</string>
