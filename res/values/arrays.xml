@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="filtered_components">
+        <item>com.google.android.googlequicksearchbox/.VoiceSearchActivity</item>
+        <item>com.google.android.apps.wallpaper/.picker.CategoryPickerActivity</item>
+        <item>com.google.android.as/com.google.android.apps.miphone.aiai.allapps.main.MainDummyActivity</item>
+    </array>
     <array name="grayscale_calendar_icons">
         <item>@drawable/themed_icon_calendar_1</item>
         <item>@drawable/themed_icon_calendar_2</item>
