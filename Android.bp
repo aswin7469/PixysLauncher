@@ -168,7 +168,7 @@ android_library {
         "androidx.cardview_cardview",
         "com.google.android.material_material",
         "iconloader_base",
-        "view_capture"
+        "view_capture",
         "monet",
         "libGoogleFeed",
         "SettingsLib",

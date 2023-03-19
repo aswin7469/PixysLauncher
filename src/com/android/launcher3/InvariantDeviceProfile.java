@@ -66,6 +66,7 @@ import com.android.launcher3.util.Partner;
 import com.android.launcher3.util.Themes;
 import com.android.launcher3.util.WindowBounds;
 import com.android.launcher3.util.window.WindowManagerProxy;
+import com.android.launcher3.LauncherPrefs;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -211,7 +212,7 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
     private InvariantDeviceProfile(Context context) {
         mContext = context;
 
-        SharedPreferences prefs = Utilities.getPrefs(context);
+        SharedPreferences prefs = LauncherPrefs.getPrefs(context);
         prefs.registerOnSharedPreferenceChangeListener(this);
         String gridName = getCurrentGridName(context);
         String newGridName = initGrid(context, gridName);

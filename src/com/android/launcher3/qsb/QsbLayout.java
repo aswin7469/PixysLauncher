@@ -17,6 +17,8 @@ import com.android.launcher3.BaseActivity;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
+import com.android.launcher3.LauncherPrefs;
+
 import com.android.launcher3.qsb.QsbContainerView;
 import com.android.launcher3.util.Themes;
 import com.android.launcher3.views.ActivityContext;
@@ -47,7 +49,7 @@ public class QsbLayout extends FrameLayout implements
         mLensIcon = findViewById(R.id.lens_icon);
         setIcons();
 
-        Utilities.getPrefs(mContext).registerOnSharedPreferenceChangeListener(this);
+        LauncherPrefs.getPrefs(mContext).registerOnSharedPreferenceChangeListener(this);
 
         String searchPackage = QsbContainerView.getSearchWidgetPackageName(mContext);
         setOnClickListener(view -> {
